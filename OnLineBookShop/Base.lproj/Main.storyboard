@@ -111,6 +111,7 @@
                     <connections>
                         <outlet property="EMail" destination="lCH-lh-uas" id="Ifo-BJ-2WN"/>
                         <outlet property="Password" destination="6EB-AK-RIE" id="a3c-KE-s8P"/>
+                        <outlet property="ROUNDView" destination="8bC-Xf-vdC" id="WKQ-J2-Kbp"/>
                         <outlet property="scrollview" destination="7Ua-Lb-U1d" id="IJy-gp-aBv"/>
                         <segue destination="Xie-Ne-9yQ" kind="showDetail" identifier="SWRevealViewController" id="KfF-VN-swN"/>
                     </connections>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004D62EC1DD85BD800FE5119 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004D62EB1DD85BD800FE5119 /* QuartzCore.framework */; };
 		00568A961D87BF19002075AB /* devcustomcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00568A951D87BF19002075AB /* devcustomcell.m */; };
 		00568A991D87C2A2002075AB /* advcustomcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00568A981D87C2A2002075AB /* advcustomcell.m */; };
 		00585C6F1D7EB18200454CC5 /* registertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 00585C6E1D7EB18200454CC5 /* registertion.m */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004D62EB1DD85BD800FE5119 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00568A941D87BF19002075AB /* devcustomcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devcustomcell.h; sourceTree = "<group>"; };
 		00568A951D87BF19002075AB /* devcustomcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = devcustomcell.m; sourceTree = "<group>"; };
 		00568A971D87C2A2002075AB /* advcustomcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advcustomcell.h; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004D62EC1DD85BD800FE5119 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,12 +137,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004D62EA1DD85BD700FE5119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004D62EB1DD85BD800FE5119 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0061F96F1D7D77A800CBA2EE = {
 			isa = PBXGroup;
 			children = (
 				0061F97A1D7D77A900CBA2EE /* OnLineBookShop */,
 				0061F9971D7D77A900CBA2EE /* OnLineBookShopTests */,
 				0061F9791D7D77A900CBA2EE /* Products */,
+				004D62EA1DD85BD700FE5119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

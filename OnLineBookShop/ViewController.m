@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "SWRevealViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()<UITextFieldDelegate>{
      NSDictionary *respo;
+    IBOutlet UIView *ROUNDView;
 }
 
 @end
@@ -37,6 +39,7 @@
 //    
 //   }
     
+    ROUNDView.layer.cornerRadius=20;
 }
 -(void)dismisskeyboard1{
     [self.EMail resignFirstResponder];
