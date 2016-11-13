@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
   //  UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc]initWithTarget:self  action:@selector(dismisskeyboard1)];
-    
+    //hai
 }
 -(void)dismisskeyboard1{
     [self.email resignFirstResponder];
