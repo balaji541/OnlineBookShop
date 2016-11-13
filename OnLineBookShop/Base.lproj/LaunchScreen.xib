@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="u42-CD-1gk">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="389"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OnLineBookShop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jf2-3d-a4L">
+                    <rect key="frame" x="8" y="421" width="464" height="51"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="32E-Sl-k0l"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                    <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.56966594827586203" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jf2-3d-a4L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="7gu-6n-glT"/>
+                <constraint firstItem="u42-CD-1gk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C1M-3w-hva"/>
+                <constraint firstItem="jf2-3d-a4L" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="J0v-XG-8sZ"/>
+                <constraint firstItem="u42-CD-1gk" firstAttribute="centerX" secondItem="jf2-3d-a4L" secondAttribute="centerX" id="P8e-nt-5W1"/>
+                <constraint firstItem="jf2-3d-a4L" firstAttribute="top" secondItem="u42-CD-1gk" secondAttribute="bottom" constant="32" id="bSR-qj-4ft"/>
+                <constraint firstItem="u42-CD-1gk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fG8-Id-ChL"/>
+                <constraint firstAttribute="trailing" secondItem="u42-CD-1gk" secondAttribute="trailing" id="v7L-9k-mO0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="427" y="367"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="book1.gif" width="350" height="350"/>
+    </resources>
+</document>
